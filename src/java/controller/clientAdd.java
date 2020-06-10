@@ -17,11 +17,17 @@ import clientModal.clientInterface;
 import clientModal.ClientImpl;
 
 import java.util.Random;
+import javax.servlet.annotation.WebServlet;
 
 /**
  *
  * @author 11141
  */
+
+@WebServlet(
+        name = "clientAdd", 
+        urlPatterns = {"/clientAdd"}
+    )
 public class clientAdd extends HttpServlet {
 
     /**

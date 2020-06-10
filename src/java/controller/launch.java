@@ -11,6 +11,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -21,6 +22,11 @@ import org.apache.tomcat.util.codec.binary.Base64;
  *
  * @author 11141
  */
+
+@WebServlet(
+        name = "launch", 
+        urlPatterns = {"/launch"}
+    )
 public class launch extends HttpServlet {
 
     /**

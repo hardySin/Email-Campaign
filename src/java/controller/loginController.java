@@ -10,6 +10,7 @@ import java.io.PrintWriter;
 import java.util.Map;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -22,6 +23,12 @@ import registerModal.registerImpl;
  *
  * @author 11141
  */
+
+@WebServlet(
+        name = "loginController", 
+        urlPatterns = {"/loginController"}
+    )
+
 public class loginController extends HttpServlet {
 
     /**

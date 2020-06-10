@@ -3,10 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/liferay%20Hardy/New%20folder/emailCampaign/src/java/clientModal/clientInterface.java</file>
-            <file>file:/D:/liferay%20Hardy/New%20folder/emailCampaign/web/logoutsession.jsp</file>
-            <file>file:/D:/liferay%20Hardy/New%20folder/emailCampaign/web/MainContent.jsp</file>
-            <file>file:/D:/liferay%20Hardy/New%20folder/emailCampaign/src/java/controller/clientAdd.java</file>
+            <file>file:/D:/liferayHardy/Newfolder/emailCampaign/src/java/campaign/campaignImpl.java</file>
+            <file>file:/D:/liferayHardy/Newfolder/emailCampaign/src/java/clientModal/ClientImpl.java</file>
+            <file>file:/D:/liferayHardy/Newfolder/emailCampaign/src/java/controller/addTemplate.java</file>
         </group>
     </open-files>
 </project-private>
